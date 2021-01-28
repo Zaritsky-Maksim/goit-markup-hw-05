@@ -4,30 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
-    <div class="container">
-<header>
-    <nav class="main-nav">
-        <a href=""><img src="/img/WebStudio.svg" alt="logos"></a>
-        <ul class="pagination">
-            <li class="item" id="portfolio-studio"><a href="/index.html">Студия</a></li>
-            <li class="item"><a href="/portfolio.html">Портфолио</a></li>
-            <li class="item"><a href="#contacts">Контакты</a></li>
-        </ul>
-        <ul class="aside">
-            <li class="item envelope"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="item smartphone"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-    </nav>
-</header>
-</div>
+    <header>
+        <nav class="main-nav">
+            <a class="website-logo" href=""><span>Web</span>Studio</a>
+            <ul class="pagination">
+                <li class="item" id="portfolio-studio"><a href="index.html">Студия</a></li>
+                <li class="item"><a href="portfolio.html">Портфолио</a></li>
+                <li class="item"><a href="#contacts">Контакты</a></li>
+            </ul>
+            <ul class="aside">
+                <li class="envelope">
+                    <a href="mailto:info@devstudio.com">
+                    <svg width="16px" height="12px">
+                    <use href="./img/symbol.svg#envelope"></use>
+                    </svg>
+                    info@devstudio.com</a>
+                </li>
+                <li class="smartphone">
+                    <a href="tel:+380961111111">
+                    <svg width="10px" height="16px">
+                    <use href="./img/symbol.svg#smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 <main>
     <section class="hero">
         <h1>Эффективные решения<br> для вашего бизнеса</h1>
@@ -37,12 +45,12 @@
         <section class="about">
         <!--<h2></h2>-->
     <ul class="skills">
-                 <li class="icon-antenna">
-                     <h3>Внимание к деталям</h3>
-                </li>
-                <li>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
+        <li class="icon-antenna">
+            <h3>Внимание к деталям</h3>
+        </li>
+            <li>
+                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            </li>
     </ul>
      <ul class="skills">
         <li class="icon-clock">
@@ -71,26 +79,26 @@
         </section>
     </div>     
         <div class="container">
-<section class="activity">
-    <h2>Чем мы занимаемся</h2>
-    <ul class="activity-main">
-            <li class="desktop-applications"><img src="/img/box1.jpg" alt="box 1" width="370">
-                <p class="applications-paragraph">Десктопные приложения</p>
-        </li>
-            <li class="mobile-applications"><img src="/img/box2.jpg" alt="box 2" width="370">
-                <p class="mobile-applications-paragraph">Мобильные приложения</p>
-        </li>
-            <li class="design-solution"><img src="/img/box3.jpg" alt="box 3" width="370">
-                <p class="design-solution-paragraph">Дизайнерские решения</p>
-    </li>
-    </ul>
-</section>
+            <section class="activity">
+                <h2>Чем мы занимаемся</h2>
+                <ul class="activity-main">
+                        <li class="desktop-applications"><img src="./img/box1.jpg" alt="box 1" width="370">
+                            <p class="applications-paragraph">Десктопные приложения</p>
+                        </li>
+                        <li class="mobile-applications"><img src="./img/box2.jpg" alt="box 2" width="370">
+                            <p class="mobile-applications-paragraph">Мобильные приложения</p>
+                        </li>
+                        <li class="design-solution"><img src="./img/box3.jpg" alt="box 3" width="370">
+                            <p class="design-solution-paragraph">Дизайнерские решения</p>
+                        </li>
+                </ul>
+            </section>
 </div>
 <section class="command-all">
     <h2>Наша команда</h2>
     <div class="command">
     <ul class="member">
-        <li><img src="/img/img.jpg" alt="Игорь Демьяненко" width="270"></li>
+        <li><img src="./img/img.jpg" alt="Игорь Демьяненко" width="270"></li>
         <li><p>Игорь Демьяненко</p></li>
         <li><p class="profession">Product Designer</p></li>
         <li class="social"> 
@@ -123,7 +131,7 @@
         </li>
     </ul>
     <ul class="member">
-        <li><img src="/img/img1.jpg" alt="Ольга Репина" width="270"></li>
+        <li><img src="./img/img1.jpg" alt="Ольга Репина" width="270"></li>
         <li><p>Ольга Репина</p></li>
         <li><p class="profession">Frontend Developer</p></li>
         <li class="social"> 
@@ -156,7 +164,7 @@
         </li>
     </ul>
     <ul class="member">
-        <li><img src="/img/img2.jpg" alt="Николай Тарасов" width="270"></li>
+        <li><img src="./img/img2.jpg" alt="Николай Тарасов" width="270"></li>
         <li><p>Николай Тарасов</p></li>
         <li><p class="profession">Marketing</p></li>
         <li class="social"> 
@@ -189,7 +197,7 @@
         </li>
     </ul>
     <ul class="member">
-        <li><img src="/img/img3.jpg" alt="Михаил Ермаков" width="270"></li>
+        <li><img src="./img/img3.jpg" alt="Михаил Ермаков" width="270"></li>
         <li><p>Михаил Ермаков</p></li>
         <li><p class="profession">UI Designer</p></li>
         <li class="social"> 
@@ -223,8 +231,8 @@
     </ul>
     </div> 
 </section>
+    <h2>Постоянные клиенты</h2>
 <div class="container">
-            <h2>Постоянные клиенты</h2>
 <div class="logo">
     <ul class="link-clients">
         <li class="link-logo">
@@ -266,14 +274,14 @@
 </main>
 <footer>
     <div class="container">
-    <nav class="nav-footer">
-         <ul class="aside-footer">
-                <li><a href=""><img src="/img/WebStudio.svg" alt="logos"></a></li>
-                <li><p id="contacts">г. Киев, пр-т Леси Украинки, 26</p></li>
-                <li class="mailto-footer"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="tel-footer"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-    </nav>
+        <nav class="nav-footer">
+            <a class="website-footer-logo" href=""><span>Web</span>Studio</a>
+             <ul class="aside-footer">
+                    <li><p id="contacts">г. Киев, пр-т Леси Украинки, 26</p></li>
+                    <li class="mailto-footer"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="tel-footer"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+        </nav>
 <div class="all-links-footer">
     <ul class="footer-link">
         <li><span>ПРИСОЕДИНЯЙТЕСЬ</span></li>
@@ -312,7 +320,10 @@
 </div>
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button data-modal-close>Закрыть</button>
+        <button class="button-close" data-modal-close>
+            <svg class="close" width="11px" height="11px">
+            <use href="./img/symbol.svg#close"></use>
+        </button>
     </div>
 </div>
 <script src="./JS/modal.js"></script>
